@@ -1,0 +1,167 @@
+/* Code By Rahul Chaturbhuj - Wpoets Full Stack Test*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+:root {
+    /*Text color*/
+--brand-primary:#c4351e;
+--brand-secondary:#11324d;
+--brand-third:#f0b91e;
+--brand-fourth:#64b4c8;
+--brand-fifth:#504682;
+--brand-sixth:#2fb1fc;
+--brand-seventh:none;
+--brand-eighth:none;
+--gray-darker: #2e3439;
+--gray-dark:#424242;
+--gray:#696969;
+--gray-light:#adadad;
+--gray-lighter:#d4d3d8;
+--gray-white:	#f6f6f6;
+--brand-success:#56bd5b;
+--brand-info:	#0099fa;
+--brand-warning:#f7b422;
+--brand-danger:#e34c4c;
+--brand-black:#000000;
+--brand-white:#ffffff;
+/*background-color*/
+--brand-primary-bg:#c4351e;
+--brand-secondary-bg:#11324d;
+--brand-third-bg:#f0b91e;
+--brand-fourth-bg:#64b4c8;
+--brand-fifth-bg:#504682;
+--brand-sixth-bg:#2fb1fc;
+--brand-seventh-bg:none;
+--brand-eighth-bg:none;
+--gray-darker-bg:#2e3439;
+--gray-dark-bg: #424242;
+--gray-bg:#696969;
+--gray-light-bg:#adadad;
+--gray-lighter-bg:#d4d3d8;
+--gray-white-bg:#f6f6f6;
+--brand-success-bg:#56bd5b;
+--brand-info-bg:	#0099fa;
+--brand-warning-bg:#f7b422;
+--brand-danger-bg:#e34c4c;
+--brand-black-bg:#000000;
+--brand-white-bg:#ffffff;
+}
+
+body{
+    font-family:sans-serif; 
+    background-color: var(--brand-secondary-bg);
+    
+}
+h1,p{
+    text-align: center;
+    color: var(--brand-white);
+}
+.container{
+padding: 40px;
+}
+
+.box{
+    padding: 0px 0px 0px 0px; 
+    background-color: var(--gray-white-bg);
+}
+
+button{
+    margin: 15px 2px 15px;
+    width: 220px;
+    padding: 10px;
+    background-color: var(--brand-white-bg);
+    border: none;
+    
+    text-align: left;
+    display: inline;
+}
+
+button:hover{
+    box-shadow: 0px 5px 10px var(--gray-light-bg);
+    
+}
+.icon2{
+    background-color: var(--brand-primary-bg);
+    position: absolute;
+    right: 100px;
+    margin-left: 15px;
+
+}
+
+
+ .icon{
+    
+     padding: 1px;
+     height: 50px;
+     width: 50px;
+     margin-left: 1 px;
+     text-align: left;
+ }
+
+.col1{
+    background-color: var(--gray-white-bg);
+}
+
+.col2{
+    background-color: var(--brand-fourth-bg);
+}
+ 
+.col-md-4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+   font-family: sans-serif;
+  }
+
+  .Slide-img{
+      width: 100%;
+      height: 300px;
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .box11{
+      padding: 50px;
+  }
+
+  .title{
+      background-color: var(--gray-lighter-bg);
+      text-align: center;
+  }
+
+  .carousel-caption{
+      color: var(--brand-white);
+  }
+
+  .item{
+    height: 300px;
+    width: 100%; background-color: var(--brand-fourth-bg);
+    padding: 0px;
+   
+  }
+  .panel-body{
+    position:sticky;
+    height: 350px;
+width: 350px;
+
+}
+
+/*Mobile Image Slide Overlap*/
+  .mbcol2{
+    position:absolute;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  }
+ 
+.mbcol3{
+position: absolute;
+z-index: -1;
+height: 350px;
+width: 350px;
+  }
+
+
+
+
+   
